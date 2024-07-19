@@ -48,10 +48,10 @@ const Email = () => {
           <span>{result}</span>
         </div>
         <div className='contact-info'>
-          <h2>Contact Information</h2>
-          <p>Email: example@example.com</p>
-          <p>Phone: (123) 456-7890</p>
-          <p>Address: 123 Example St, City, Country</p>
+          <h2>My Contact Information</h2>
+          <p>Email: jdejesus7466@gmail.com</p>
+          <p>Phone: (702) 964-4008</p>
+          <p>Address: 3883 South Angler Drive, Gilbert, Arizona</p>
         </div>
       </div>
     </div>
