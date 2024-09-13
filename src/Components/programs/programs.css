@@ -7,6 +7,7 @@
     color: #000;
     text-align: center;
     padding: 20px;
+    padding-top: 80px;
 }
 
 .program {
@@ -17,20 +18,24 @@
     margin: 20px 0;
 }
 
+.program img {
+    border: 4px solid #000;
+}
+
 .program:nth-child(odd) .explanation {
-    order: 1; /* Text comes first */
+    order: 1; 
 }
 
 .program:nth-child(odd) img {
-    order: 2; /* Image comes second */
+    order: 2;
 }
 
 .program:nth-child(even) .explanation {
-    order: 2; /* Text comes second */
+    order: 2; 
 }
 
 .program:nth-child(even) img {
-    order: 1; /* Image comes first */
+    order: 1;
 }
 
 .explanation {
