@@ -1,6 +1,6 @@
 import React from 'react'
 import './aboutme.css'
-import selfPortrait from '../../assets/logo.png'
+import selfPortrait from '../../assets/me.jpg'
 
 const aboutme = () => {
   return (
@@ -12,7 +12,6 @@ const aboutme = () => {
               Polytechnic. I have been coding and programming for 8 years, and am proficient several programming langauges
               listed on my resume. Additionally, I am well versed in many frameworks, libraries, and suites.
             </p>
-            <button className='btn'>See More!</button>
         </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import React from 'react';
 import './programs.css';
+import practice from '../../assets/practive.jpg';
 import programImg from '../../assets/logo.png';
 
 const Programs = () => {
@@ -8,7 +9,7 @@ const Programs = () => {
         <h1>Programs that I have made or contributed to.</h1>
         <div className="program">
             <p className='explanation'>Left</p>
-            <img src={programImg} alt="Program 1" />
+            <img src={practice} alt="Program 1" />
         </div>
         <div className="program">
             <img src={programImg} alt="Program 2" />

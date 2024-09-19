@@ -12,6 +12,12 @@
     gap: 20px;
 }
 
+.aboutMe img {
+    width: 450px; 
+    height: auto; 
+    object-fit: cover; 
+}
+
 .aboutText {
     color: black;
     display: flex;
